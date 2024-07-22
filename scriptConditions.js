@@ -11,16 +11,18 @@ break
 
 case "Ford" :
     console.log("hurray it's my type");
+    break
+
+default : console.log("i don't understand you")
 
 } */
 
-    /*ternary operator*/
-    /*
+/*ternary operator*/
+/*
     carName === carModel ? console.log("they are the same") : console.log("they are not the same");
     */
 
-    let isActive = 3;
-    let age = 10;
+let isActive = 3;
+let age = 10;
 
-    console.log(isActive && age);
-
+console.log(isActive && age);
