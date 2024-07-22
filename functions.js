@@ -29,6 +29,13 @@ function addition(a, b, c) {
 
 console.log(addition(3, 4, log));
 
+//there is another way of writing function which is called Arrow Function it can be writing in one line.
+//let log = (result) => console.log("The result is " + result);
+
+let sum = (a, b) => console.log(a + b);
+
+console.log(sum(3, 6));
+
 //example two of a callback function
 function sayHelloName(callback) {
   console.log("Hello");
@@ -36,7 +43,7 @@ function sayHelloName(callback) {
 }
 
 let printName = function () {
-  console.log("WHY ME");
+  console.log("Gift");
 };
 
 console.log(sayHelloName(printName));
